@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WBM Contracting LLC - Construction Company in Dubai</title>
+  <meta name="description" content="WBM Contracting LLC is a trusted construction company in Dubai offering civil works, interior fit-out, and MEP contracting.">
+  <meta name="keywords" content="construction company Dubai, WBM Contracting LLC, MEP contracting Dubai, interior fit-out Dubai">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- SweetAlert2 -->
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark transition-all" id="mainNavbar">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.png" alt="WBM Contracting" height="55" class="logo-img">
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button class="navbar-toggler border-gold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-4 gap-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Social Icons -->
+        <div class="d-flex align-items-center gap-3 nav-social-icons border-start border-gold ps-4 ms-2">
+          <a href="https://instagram.com" target="_blank" class="text-white social-icon" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" class="text-white social-icon" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.tiktok.com/@technical.boss1" target="_blank" class="text-white social-icon" title="TikTok"><i class="bi bi-tiktok"></i></a>
+          <a href="https://youtube.com" target="_blank" class="text-white social-icon" title="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="text-white social-icon" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="home" class="hero-section">
+    <div class="hero-carousel">
+      <!-- Slide 1 -->
+      <div class="hero-slide active" data-index="0">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="hero-slide" data-index="1">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="hero-slide" data-index="2">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+      </div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text-wrapper">
+          <span class="hero-badge">WBM CONTRACTING L.L.C</span>
+          <h1 class="hero-title" id="heroTitle">Luxury Developments</h1>
+          <h2 class="hero-subtitle" id="heroSubtitle">That Enhance Life & Work</h2>
+          <p class="hero-description" id="heroDescription">Complete interior solutions for commercial, retail, and office spaces</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-gold btn-lg px-5 py-3 fw-bold shadow-gold">Get Started</a>
+            <a href="#projects" class="btn btn-outline-gold btn-lg px-5 py-3 fw-bold">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="hero-arrow hero-arrow-left d-none d-md-flex" id="heroPrev" aria-label="Previous slide">
+      <i class="bi bi-chevron-left"></i>
+    </button>
+    <button class="hero-arrow hero-arrow-right d-none d-md-flex" id="heroNext" aria-label="Next slide">
+      <i class="bi bi-chevron-right"></i>
+    </button>
+
+    <!-- Slide Indicators -->
+    <div class="hero-indicators">
+      <button class="hero-indicator active" data-slide="0"></button>
+      <button class="hero-indicator" data-slide="1"></button>
+      <button class="hero-indicator" data-slide="2"></button>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="py-5 bg-light-gradient">
+    <div class="container py-4">
+      <!-- Section Header -->
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-badge">ABOUT US</span>
+        <h2 class="section-title text-dark">WBM Contracting Company</h2>
+        <p class="section-subtitle text-dark">Transforming ideas into functional, inspiring spaces with precision and passion</p>
+      </div>
+
+      <!-- Tabs Navigation -->
+      <div class="d-flex flex-wrap justify-content-center gap-3 mb-5" data-aos="fade-up" data-aos-delay="100">
+        <button class="tab-btn active" data-tab="team"><i class="bi bi-people me-2"></i>About Us</button>
+        <button class="tab-btn" data-tab="vision"><i class="bi bi-bullseye me-2"></i>Our Vision</button>
+        <button class="tab-btn" data-tab="capabilities"><i class="bi bi-briefcase me-2"></i>Capabilities</button>
+        <button class="tab-btn" data-tab="process"><i class="bi bi-building me-2"></i>Our Process</button>
+        <button class="tab-btn" data-tab="faq"><i class="bi bi-question-circle me-2"></i>FAQ</button>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="tab-content-wrapper mb-5">
+        <!-- About Us Tab -->
+        <div class="tab-pane active" id="tab-team">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5 text-center" data-aos="fade-right">
+              <div class="about-image-wrapper">
+                <img src="assets/images/about-image.jpg" alt="WBM Contracting" class="img-fluid rounded-4 shadow-lg about-img">
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+              <h3 class="fw-bold text-dark mb-4">About Us</h3>
+              <p class="text-dark fs-5 lh-lg text-justify">
+                Mr. Mohammad Siddiq, CEO and Founder of the company, takes pride in bringing before you the company he dreamed of. With 30 years of hard work and experience he has established the company to serve the community around him. You can now be sure of the best service ever. We as a technical service company deliver ambitious and innovative projects adding value to both the client and the community. From interior fit out works to landscaping, swimming pools, villa extensions, renovation works and maintenance works.
+              </p>
+              <a href="pages/about.html" class="btn btn-gold fw-bold px-5 py-3 mt-3 shadow-gold-sm hover-lift">Explore More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vision Tab -->
+        <div class="tab-pane" id="tab-vision">
+          <div class="col-lg-8 mx-auto">
+            <div class="bg-dark-gradient p-5 rounded-4 shadow-lg text-center">
+              <i class="bi bi-bullseye text-gold display-4 mb-4 d-block"></i>
+              <h3 class="fw-bold text-white mb-4">Our Vision</h3>
+              <p class="text-white fs-5 lh-lg text-justify mb-3">Our vision is to shape environments that enhance the way people work, live, and experience spaces.</p>
+              <p class="text-white fs-5 lh-lg text-justify mb-3">We aim to be a trusted contracting partner known for innovation, reliability, and superior workmanship.</p>
+              <p class="text-white fs-5 lh-lg text-justify">By combining modern design trends with smart construction practices, we deliver spaces that reflect our clients' identity and long-term goals.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Capabilities Tab -->
+        <div class="tab-pane" id="tab-capabilities">
+          <h3 class="fw-bold text-dark mb-4 text-center">Our Capabilities</h3>
+          <p class="text-dark fs-5 mb-5 text-center col-lg-8 mx-auto">WBM Contracting provides end-to-end solutions across commercial, retail, and office environments. From concept to completion, we manage every detail with accuracy and care.</p>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+              <div class="capability-card">
+                <h4 class="fw-bold text-dark mb-3">Office Fit out</h4>
+                <p class="text-dark">Functional, stylish, and efficient workplaces</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="capability-card">
+                <h4 class="fw-bold text-dark mb-3">Retail Fit out</h4>
+                <p class="text-dark">Engaging and customer-centric store interiors</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="capability-card">
+                <h4 class="fw-bold text-dark mb-3">Joinery Works</h4>
+                <p class="text-dark">Custom-built furniture, cabinetry, and wooden elements</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="capability-card">
+                <h4 class="fw-bold text-dark mb-3">Refurbishment & Renovation</h4>
+                <p class="text-dark">Upgrading existing spaces with minimal disruption</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="capability-card">
+                <h4 class="fw-bold text-dark mb-3">Project Management</h4>
+                <p class="text-dark">Cost planning, quality control, and on-time delivery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Process Tab -->
+        <div class="tab-pane" id="tab-process">
+          <h3 class="fw-bold text-dark mb-4 text-center">Our Process</h3>
+          <p class="text-dark fs-5 mb-5 text-center col-lg-8 mx-auto">Our process ensures clarity, efficiency, and seamless execution. This structured approach guarantees smooth delivery with no surprises.</p>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+              <div class="process-card">
+                <span class="process-number">01</span>
+                <h4 class="fw-bold text-white mb-3">Consultation & Briefing</h4>
+                <p class="text-white-80">Understanding client needs, goals, and space requirements</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="process-card">
+                <span class="process-number">02</span>
+                <h4 class="fw-bold text-white mb-3">Design & Planning</h4>
+                <p class="text-white-80">Space planning, material selection, and design development</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="process-card">
+                <span class="process-number">03</span>
+                <h4 class="fw-bold text-white mb-3">Costing & Approval</h4>
+                <p class="text-white-80">Transparent quotations and project timelines</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="process-card">
+                <span class="process-number">04</span>
+                <h4 class="fw-bold text-white mb-3">Execution & Fitout</h4>
+                <p class="text-white-80">Skilled workmanship, safety compliance, and quality control</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="process-card">
+                <span class="process-number">05</span>
+                <h4 class="fw-bold text-white mb-3">Handover & Support</h4>
+                <p class="text-white-80">Final inspection, client approval, and post-completion support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Tab -->
+        <div class="tab-pane" id="tab-faq">
+          <h3 class="fw-bold text-dark mb-5 text-center">Frequently Asked Questions</h3>
+          <div class="col-lg-8 mx-auto">
+            <div class="accordion" id="faqAccordion">
+              <div class="faq-item" data-aos="fade-up">
+                <h4 class="fw-bold text-dark mb-3"><span class="text-gold me-2">Q:</span>What services do you provide?</h4>
+                <p class="text-dark ps-4">We offer office fit out, retail fit out, joinery works, refurbishment, and complete interior contracting solutions.</p>
+              </div>
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="fw-bold text-dark mb-3"><span class="text-gold me-2">Q:</span>Do you handle both design and execution?</h4>
+                <p class="text-dark ps-4">Yes. We provide design, project planning, and full construction services under one roof.</p>
+              </div>
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <h4 class="fw-bold text-dark mb-3"><span class="text-gold me-2">Q:</span>How long does a typical project take?</h4>
+                <p class="text-dark ps-4">Project timelines vary depending on size and scope, but we always work to deliver on schedule without compromising quality.</p>
+              </div>
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <h4 class="fw-bold text-dark mb-3"><span class="text-gold me-2">Q:</span>Can you work with my existing design or consultant?</h4>
+                <p class="text-dark ps-4">Absolutely. We can execute projects based on your approved design or collaborate with your consultant.</p>
+              </div>
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <h4 class="fw-bold text-dark mb-3"><span class="text-gold me-2">Q:</span>Do you offer custom furniture and joinery?</h4>
+                <p class="text-dark ps-4">Yes. Our joinery team creates bespoke furniture and fittings tailored to your space and style.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clients Section -->
+      <div class="clients-banner" data-aos="fade-up">
+        <h3 class="fw-bold text-dark mb-4">Our Clients</h3>
+        <p class="text-dark fs-5 col-lg-8 mx-auto mb-3">We work with a wide range of clients across various industries—corporate offices, retail brands, small businesses, and commercial spaces.</p>
+        <p class="text-dark fs-5 col-lg-8 mx-auto">Our commitment to quality and consistency has helped us build long-term relationships based on trust, transparency, and exceptional results. Every project, whether big or small, receives the same level of attention and dedication.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services" class="py-5 bg-dark-gradient">
+    <div class="container py-4">
+      <!-- Section Header -->
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-badge">OUR SERVICES</span>
+        <h2 class="section-title text-white">Complete Construction Solutions</h2>
+        <p class="section-subtitle text-white">From interior design to MEP contracting, we deliver complete solutions tailored to meet the needs of residential, commercial, and industrial spaces</p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="row g-4 g-lg-5 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-5">
+          <a href="pages/service-detail.html?id=1" class="text-decoration-none">
+            <div class="service-card hover-lift">
+              <div class="service-card-image">
+                <img src="assets/images/interior-design/JPJ-004.jpeg" alt="Interior Design Services">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-icon">
+                  <i class="bi bi-palette"></i>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="fw-bold text-dark mb-3">Interior Design Services</h3>
+                <p class="text-dark mb-3">Transforming spaces into experiences. We create innovative, functional, and aesthetically pleasing interior environments tailored to reflect your vision, comfort, and modern standards.</p>
+                <ul class="service-features">
+                  <li><span class="feature-dot"></span>Residential Interior Design</li>
+                  <li><span class="feature-dot"></span>Commercial Interior Design</li>
+                  <li><span class="feature-dot"></span>Fit-Out & Trunking Solutions</li>
+                </ul>
+                <span class="btn btn-dark w-100 py-3 fw-semibold service-btn">Explore More</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-5">
+          <a href="pages/service-detail.html?id=2" class="text-decoration-none">
+            <div class="service-card hover-lift">
+              <div class="service-card-image">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="MEP Contracting Services">
+                <div class="service-card-overlay"></div>
+                <div class="service-card-icon">
+                  <i class="bi bi-wrench-adjustable"></i>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="fw-bold text-dark mb-3">MEP Contracting Services</h3>
+                <p class="text-dark mb-3">Complete Mechanical, Electrical & Plumbing solutions for residential, commercial, and industrial projects — from design and planning to installation, testing, and commissioning.</p>
+                <ul class="service-features">
+                  <li><span class="feature-dot"></span>Mechanical Works (HVAC, Fire Fighting)</li>
+                  <li><span class="feature-dot"></span>Electrical Works (Power, Lighting, Low Current)</li>
+                  <li><span class="feature-dot"></span>Plumbing Works (Water, Drainage, Irrigation)</li>
+                </ul>
+                <span class="btn btn-dark w-100 py-3 fw-semibold service-btn">Explore More</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="gold-cta mt-5 pt-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="gold-banner text-center p-5 rounded-4 shadow-lg">
+          <h3 class="fw-bold text-dark display-6 mb-3">Ready to Start Your Project?</h3>
+          <p class="text-dark fs-5 opacity-75 mb-4 col-lg-7 mx-auto">Let's discuss how we can bring your vision to life with our expert construction services</p>
+          <a href="pages/contact.html" class="btn btn-dark btn-lg px-5 py-3 fw-bold hover-lift">Request a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section id="projects" class="py-5 bg-light-gradient">
+    <div class="container py-4">
+      <!-- Section Header -->
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-badge">OUR PORTFOLIO</span>
+        <h2 class="section-title text-dark">Featured Projects</h2>
+        <p class="section-subtitle text-dark">Explore our portfolio of successful projects that showcase our commitment to excellence</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="d-flex flex-wrap justify-content-center gap-3 mb-5" data-aos="fade-up" data-aos-delay="100">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="industrial">Industrial</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="row g-4 g-lg-5" id="projectsGrid">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="commercial" data-aos="fade-up">
+          <a href="pages/project-detail.html?id=1" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="assets/images/projects/luxury-bussines-tower.jpg" alt="Luxury Business Tower">
+                <div class="project-card-overlay">
+                  <span class="project-category">COMMERCIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Luxury Business Tower</h3>
+                  <p class="text-gray-300 mb-2">45-story luxury commercial complex</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Dubai Marina</span>
+                    <span class="text-gold fw-semibold small">2023</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="residential" data-aos="fade-up" data-aos-delay="100">
+          <a href="pages/project-detail.html?id=2" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80" alt="Oceanview Residence">
+                <div class="project-card-overlay">
+                  <span class="project-category">RESIDENTIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Oceanview Residence</h3>
+                  <p class="text-gray-300 mb-2">Premium waterfront villa</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Palm Jumeirah</span>
+                    <span class="text-gold fw-semibold small">2023</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="industrial" data-aos="fade-up" data-aos-delay="200">
+          <a href="pages/project-detail.html?id=3" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80" alt="Tech Manufacturing Hub">
+                <div class="project-card-overlay">
+                  <span class="project-category">INDUSTRIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Tech Manufacturing Hub</h3>
+                  <p class="text-gray-300 mb-2">State-of-the-art manufacturing facility</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Dubai Industrial City</span>
+                    <span class="text-gold fw-semibold small">2022</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="commercial" data-aos="fade-up">
+          <a href="pages/project-detail.html?id=4" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="assets/images/projects/shopping-plaza.jpg" alt="Shopping Plaza">
+                <div class="project-card-overlay">
+                  <span class="project-category">COMMERCIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Shopping Plaza</h3>
+                  <p class="text-gray-300 mb-2">Modern retail and entertainment complex</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Downtown Dubai</span>
+                    <span class="text-gold fw-semibold small">2023</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="residential" data-aos="fade-up" data-aos-delay="100">
+          <a href="pages/project-detail.html?id=5" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Villa Community">
+                <div class="project-card-overlay">
+                  <span class="project-category">RESIDENTIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Villa Community</h3>
+                  <p class="text-gray-300 mb-2">Exclusive gated community</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Arabian Ranches</span>
+                    <span class="text-gold fw-semibold small">2022</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="industrial" data-aos="fade-up" data-aos-delay="200">
+          <a href="pages/project-detail.html?id=6" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80" alt="Logistics Center">
+                <div class="project-card-overlay">
+                  <span class="project-category">INDUSTRIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Logistics Center</h3>
+                  <p class="text-gray-300 mb-2">Advanced logistics and distribution center</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Jebel Ali</span>
+                    <span class="text-gold fw-semibold small">2023</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="commercial" data-aos="fade-up">
+          <a href="pages/project-detail.html?id=7" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="assets/images/projects/corporate-hardquarters.jpg" alt="Corporate Headquarters">
+                <div class="project-card-overlay">
+                  <span class="project-category">COMMERCIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Corporate Headquarters</h3>
+                  <p class="text-gray-300 mb-2">Premium office space with modern amenities</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Business Bay</span>
+                    <span class="text-gold fw-semibold small">2024</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="col-md-6 col-lg-4 project-item" data-category="residential" data-aos="fade-up" data-aos-delay="100">
+          <a href="pages/project-detail.html?id=8" class="text-decoration-none">
+            <div class="project-card hover-lift">
+              <div class="project-card-image">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Luxury Apartments">
+                <div class="project-card-overlay">
+                  <span class="project-category">RESIDENTIAL</span>
+                  <h3 class="text-white fw-bold fs-4 mb-2">Luxury Apartments</h3>
+                  <p class="text-gray-300 mb-2">High-end residential tower</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="text-gray-400 small">Dubai Hills</span>
+                    <span class="text-gold fw-semibold small">2024</span>
+                  </div>
+                </div>
+                <div class="project-view-btn">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mt-5 pt-4" data-aos="fade-up">
+        <p class="fs-5 text-dark mb-4">Want to see more of our work?</p>
+        <a href="pages/projects.html" class="btn btn-gold btn-lg px-5 py-3 fw-bold shadow-gold hover-lift">View Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BLOG SECTION ==================== -->
+  <section id="blog" class="py-5 bg-dark-gradient">
+    <div class="container py-4">
+      <!-- Section Header -->
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-badge">OUR INSIGHTS</span>
+        <h2 class="section-title text-white">Shaping Better Built Environments</h2>
+        <p class="section-subtitle text-white">Our insights reflect our knowledge, expertise, and commitment to staying ahead of industry trends through continuous learning, innovation, and improvement</p>
+      </div>
+
+      <!-- Featured Post -->
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+        <a href="pages/blog-detail.html?slug=construction-company-in-dubai" class="text-decoration-none">
+          <div class="featured-blog-card">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="featured-blog-image">
+                  <img src="assets/images/blog-image.jpeg" alt="Construction Company Dubai">
+                  <span class="featured-badge">Featured</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="featured-blog-body">
+                  <span class="blog-category-badge">Construction</span>
+                  <h3 class="fw-bold text-dark mb-3 featured-blog-title">Why WBM Contracting LLC Is the Construction Company Dubai Businesses Trust</h3>
+                  <p class="text-dark fs-5 mb-4 text-justify">When you're searching for a reliable construction company in Dubai, the decision carries real weight. WBM Contracting LLC brings years of on-ground UAE experience, a growing project portfolio, and a delivery standard that clients consistently come back to.</p>
+                  <div class="d-flex flex-wrap align-items-center gap-3 mb-4 text-dark small">
+                    <span><i class="bi bi-person me-1"></i>WBM Team</span>
+                    <span><i class="bi bi-calendar me-1"></i>Mar 25, 2026</span>
+                    <span><i class="bi bi-clock me-1"></i>5 min read</span>
+                  </div>
+                  <span class="read-more-link">Read Full Article <i class="bi bi-arrow-right ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Other Blog Posts -->
+      <div class="row g-4 mb-5">
+        <!-- Blog 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <a href="pages/blog-detail.html?slug=top-construction-company-in-dubai" class="text-decoration-none">
+            <div class="blog-card hover-lift h-100">
+              <div class="blog-card-image">
+                <img src="assets/images/blog-image-2.jpeg" alt="Top Construction Company">
+                <span class="blog-category-tag">Construction</span>
+              </div>
+              <div class="blog-card-body">
+                <h3 class="fw-bold text-dark mb-3 blog-card-title">Top Construction Company in Dubai – WBM CONTRACTING LLC</h3>
+                <p class="text-dark mb-3">When searching for a top construction company in Dubai, businesses and property owners look for reliability, quality craftsmanship, and timely delivery.</p>
+                <div class="d-flex justify-content-between align-items-center text-dark small">
+                  <span><i class="bi bi-calendar me-1"></i>Mar 30, 2026</span>
+                  <span class="read-more-sm">Read <i class="bi bi-arrow-right ms-1"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="pages/blog-detail.html?slug=top-10-construction-company-in-dubai" class="text-decoration-none">
+            <div class="blog-card hover-lift h-100">
+              <div class="blog-card-image">
+                <img src="assets/images/blog-image-3.jpeg" alt="Top 10 Construction Company">
+                <span class="blog-category-tag">Construction</span>
+              </div>
+              <div class="blog-card-body">
+                <h3 class="fw-bold text-dark mb-3 blog-card-title">Top 10 Construction Company in Dubai – Why WBM Contracting LLC Leads the Way</h3>
+                <p class="text-dark mb-3">Dubai is home to some of the most ambitious construction projects in the world. Finding a contractor that ranks among the top 10...</p>
+                <div class="d-flex justify-content-between align-items-center text-dark small">
+                  <span><i class="bi bi-calendar me-1"></i>Mar 30, 2026</span>
+                  <span class="read-more-sm">Read <i class="bi bi-arrow-right ms-1"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Blog 4 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="pages/blog-detail.html?slug=best-building-construction-in-dubai" class="text-decoration-none">
+            <div class="blog-card hover-lift h-100">
+              <div class="blog-card-image">
+                <img src="assets/images/blog-image-4.jpeg" alt="Best Building Construction">
+                <span class="blog-category-tag">Construction</span>
+              </div>
+              <div class="blog-card-body">
+                <h3 class="fw-bold text-dark mb-3 blog-card-title">Best Building Construction in Dubai – WBM Contracting LLC</h3>
+                <p class="text-dark mb-3">Looking for the best building construction in Dubai? WBM Contracting LLC combines decades of experience with modern construction methods...</p>
+                <div class="d-flex justify-content-between align-items-center text-dark small">
+                  <span><i class="bi bi-calendar me-1"></i>Mar 30, 2026</span>
+                  <span class="read-more-sm">Read <i class="bi bi-arrow-right ms-1"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center" data-aos="fade-up">
+        <a href="pages/blog.html" class="btn btn-gold btn-lg px-5 py-3 fw-bold shadow-gold hover-lift">View All Articles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="py-5 bg-light-gradient">
+    <div class="container py-4">
+      <!-- Section Header -->
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="section-badge">GET IN TOUCH</span>
+        <h2 class="section-title text-dark">Let's Start Your Project</h2>
+        <p class="section-subtitle text-dark">Ready to bring your vision to life? Contact us today for a consultation</p>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        <!-- Contact Form -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="contact-form-card h-100">
+            <h3 class="fw-bold text-dark mb-4">Send us a Message</h3>
+            <form id="contactForm" class="d-flex flex-column h-100">
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold small">Full Name *</label>
+                  <input type="text" class="form-control form-control-lg" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold small">Email Address *</label>
+                  <input type="email" class="form-control form-control-lg" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold small">Phone Number *</label>
+                  <input type="tel" class="form-control form-control-lg" name="phone" placeholder="+971 XX XXX XXXX" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold small">Subject *</label>
+                  <select class="form-select form-select-lg" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="quote">Request a Quote</option>
+                    <option value="project">New Project</option>
+                    <option value="support">Support</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3 flex-grow-1">
+                <label class="form-label fw-semibold small">Your Message *</label>
+                <textarea class="form-control" name="message" rows="6" placeholder="Tell us about your project..." required style="min-height:200px;resize:none"></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold btn-lg w-100 fw-bold shadow-gold" id="contactSubmitBtn">
+                <i class="bi bi-send me-2"></i>Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <!-- Info Cards -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <a href="tel:+971553396704" class="text-decoration-none">
+                <div class="contact-info-card">
+                  <div class="contact-info-icon"><i class="bi bi-telephone"></i></div>
+                  <div>
+                    <h5 class="fw-bold text-dark mb-1 small">Phone</h5>
+                    <p class="text-dark small mb-0">+971 55 339 6704</p>
+                    <p class="text-muted" style="font-size:0.7rem">Mohammadin</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="tel:+971566669304" class="text-decoration-none">
+                <div class="contact-info-card">
+                  <div class="contact-info-icon"><i class="bi bi-telephone"></i></div>
+                  <div>
+                    <h5 class="fw-bold text-dark mb-1 small">Phone</h5>
+                    <p class="text-dark small mb-0">+971 56 666 9304</p>
+                    <p class="text-muted" style="font-size:0.7rem">Usman</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="tel:+971547226972" class="text-decoration-none">
+                <div class="contact-info-card">
+                  <div class="contact-info-icon"><i class="bi bi-telephone"></i></div>
+                  <div>
+                    <h5 class="fw-bold text-dark mb-1 small">Phone</h5>
+                    <p class="text-dark small mb-0">+971 54 722 6972</p>
+                    <p class="text-muted" style="font-size:0.7rem">Muhammad Siddiq Khokhar (PM)</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="mailto:wbmcontracting@gmail.com" class="text-decoration-none">
+                <div class="contact-info-card">
+                  <div class="contact-info-icon"><i class="bi bi-envelope"></i></div>
+                  <div>
+                    <h5 class="fw-bold text-dark mb-1 small">Email</h5>
+                    <p class="text-dark small mb-0 text-break">wbmcontracting@gmail.com</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info-card">
+                <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
+                <div>
+                  <h5 class="fw-bold text-dark mb-1 small">Location</h5>
+                  <p class="text-dark small mb-0">P.O.Box: 93361, Dubai, U.A.E</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info-card">
+                <div class="contact-info-icon"><i class="bi bi-clock"></i></div>
+                <div>
+                  <h5 class="fw-bold text-dark mb-1 small">Working Hours</h5>
+                  <p class="text-dark small mb-0">Mon - Sat: 8:00 AM - 6:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="bg-white p-4 rounded-4 shadow mb-4">
+            <h5 class="fw-bold text-dark mb-3">Visit Our Office</h5>
+            <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3610.098876581832!2d55.3291359!3d25.2759647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzMzLjUiTiA1NcKwMTknNTQuMiJF!5e0!3m2!1sen!2sae!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="bg-dark-gradient p-4 rounded-4 shadow">
+            <h5 class="fw-bold text-white mb-3">Connect With Us</h5>
+            <div class="d-flex gap-3 mb-3">
+              <a href="https://instagram.com" target="_blank" class="social-link-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://facebook.com" target="_blank" class="social-link-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.tiktok.com/@technical.boss1" target="_blank" class="social-link-btn" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+              <a href="https://youtube.com" target="_blank" class="social-link-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              <a href="https://linkedin.com" target="_blank" class="social-link-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="text-white small mb-0">Follow us on social media for updates, projects, and industry insights</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="footer-top-line"></div>
+    <div class="container py-5">
+      <div class="row g-4 g-lg-5 mb-5">
+        <!-- Company Info -->
+        <div class="col-lg-3 col-md-6">
+          <img src="assets/images/logo.jpg" alt="WBM Contracting" height="65" class="mb-4">
+          <p class="text-dark mb-4 text-justify">Building excellence since 1999. Your trusted partner in creating exceptional spaces that stand the test of time.</p>
+          <div class="d-flex gap-2">
+            <a href="https://instagram.com" target="_blank" class="footer-social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" class="footer-social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.tiktok.com/@technical.boss1" target="_blank" class="footer-social-icon" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://youtube.com" target="_blank" class="footer-social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="footer-social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- Company Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="fw-bold text-dark mb-4">Company</h5>
+          <ul class="footer-links">
+            <li><a href="pages/about.html">About Us</a></li>
+            <li><a href="pages/about.html">Our Team</a></li>
+            <li><a href="pages/about.html">Careers</a></li>
+            <li><a href="pages/about.html">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="fw-bold text-dark mb-4">Services</h5>
+          <ul class="footer-links">
+            <li><a href="pages/service-detail.html?id=1">Interior Design</a></li>
+            <li><a href="pages/service-detail.html?id=2">MEP Contracting</a></li>
+          </ul>
+        </div>
+
+        <!-- Pages Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="fw-bold text-dark mb-4">Pages</h5>
+          <ul class="footer-links">
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/blog.html">Blog</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-3 col-md-6">
+          <h5 class="fw-bold text-dark mb-4">Contact Us</h5>
+          <ul class="footer-contact">
+            <li>
+              <a href="tel:+971553396704"><i class="bi bi-telephone"></i><span>+971 55 339 6704</span></a>
+            </li>
+            <li>
+              <a href="tel:+971566669304"><i class="bi bi-telephone"></i><span>+971 56 666 9304</span></a>
+            </li>
+            <li>
+              <a href="tel:+971547226972"><i class="bi bi-telephone"></i><span>+971 54 722 6972</span></a>
+            </li>
+            <li>
+              <a href="mailto:wbmcontracting@gmail.com"><i class="bi bi-envelope"></i><span class="text-break">wbmcontracting@gmail.com</span></a>
+            </li>
+            <li>
+              <span class="d-flex align-items-start gap-2"><i class="bi bi-geo-alt mt-1"></i><span>P.O.Box: 93361<br>Dubai, U.A.E</span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="footer-divider"></div>
+
+      <!-- Bottom -->
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 pt-4">
+        <p class="text-dark small mb-0">&copy; <span id="currentYear"></span> WBM Contracting L.L.C. All rights reserved. Powered by <a href="https://zetacoding.com/" target="_blank" class="text-gold fw-semibold">ZetaCoding</a></p>
+        <div class="d-flex gap-4 small">
+          <a href="#" class="text-dark footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="text-dark footer-bottom-link">Terms of Service</a>
+          <a href="#" class="text-dark footer-bottom-link">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING ACTIONS ==================== -->
+  <!-- Free Consultation Banner (Desktop) -->
+  <div class="consultation-banner d-none d-md-block" id="consultationBanner" onclick="openConsultationModal()">
+    <div class="consultation-banner-inner">Free Consultation</div>
+  </div>
+
+  <!-- Free Consultation Banner (Mobile) -->
+  <div class="consultation-banner-mobile d-md-none" onclick="openConsultationModal()">
+    <div class="consultation-banner-inner-mobile">Free Consultation</div>
+  </div>
+
+  <!-- Floating Action Buttons -->
+  <div class="floating-actions">
+    <a href="tel:+971553396704" class="floating-btn floating-call" title="Call us" aria-label="Call us">
+      <i class="bi bi-telephone-fill"></i>
+    </a>
+    <a href="https://wa.me/971566669304?text=Hello!%20I%20want%20to%20know%20more%20about%20your%20services.%20Please%20call%20me%20back.%20Thanks" target="_blank" class="floating-btn floating-whatsapp" title="Chat on WhatsApp" aria-label="WhatsApp">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- ==================== CONSULTATION MODAL ==================== -->
+  <div class="modal fade" id="consultationModal" tabindex="-1" aria-labelledby="consultationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content rounded-4 overflow-hidden">
+        <div class="modal-header bg-white border-bottom px-4 py-3">
+          <h5 class="modal-title fw-bold" id="consultationModalLabel">Free Consultation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="text-dark small mb-4">Fill out the form below and we'll get back to you shortly.</p>
+          <form id="modalContactForm">
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <label class="form-label fw-semibold small">Full Name *</label>
+                <input type="text" class="form-control" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="col-6">
+                <label class="form-label fw-semibold small">Email Address *</label>
+                <input type="email" class="form-control" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <label class="form-label fw-semibold small">Phone Number *</label>
+                <input type="tel" class="form-control" name="phone" placeholder="+971 XX XXX XXXX" required>
+              </div>
+              <div class="col-6">
+                <label class="form-label fw-semibold small">Subject *</label>
+                <select class="form-select" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="quote">Request a Quote</option>
+                  <option value="project">New Project</option>
+                  <option value="support">Support</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-semibold small">Your Message *</label>
+              <textarea class="form-control" name="message" rows="3" placeholder="Tell us about your project..." required style="resize:none"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold w-100 fw-bold py-3 shadow-gold" id="modalSubmitBtn">
+              <i class="bi bi-send me-2"></i>Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- AOS Animation -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

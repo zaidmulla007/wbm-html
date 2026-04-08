@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Detail - WBM Contracting LLC</title>
+  <meta name="description" content="View project details - WBM Contracting LLC, a trusted construction company in Dubai.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark scrolled" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/images/logo.png" alt="WBM Contracting" height="55" class="logo-img">
+      </a>
+      <button class="navbar-toggler border-gold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-4 gap-1">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-3 nav-social-icons border-start border-gold ps-4 ms-2">
+          <a href="https://instagram.com" target="_blank" class="text-white social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" class="text-white social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.tiktok.com/@technical.boss1" target="_blank" class="text-white social-icon"><i class="bi bi-tiktok"></i></a>
+          <a href="https://youtube.com" target="_blank" class="text-white social-icon"><i class="bi bi-youtube"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="text-white social-icon"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-badge" id="projectCategory">PROJECT</span>
+      <h1 id="projectTitle">Project Detail</h1>
+      <p id="projectTagline" class="col-lg-7 mx-auto">Delivering excellence in every project we undertake</p>
+      <div class="breadcrumb-custom mt-3">
+        <a href="../index.html">Home</a> <span class="mx-2">/</span> <a href="projects.html">Projects</a> <span class="mx-2">/</span> <span class="text-white" id="breadcrumbTitle">Project</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Detail Content -->
+  <section class="py-5 bg-light-gradient">
+    <div class="container py-4">
+
+      <!-- Project Image -->
+      <div class="row justify-content-center mb-5" data-aos="fade-up">
+        <div class="col-lg-10">
+          <div class="rounded-4 overflow-hidden shadow-lg">
+            <img id="projectImage" src="" alt="" class="img-fluid w-100" style="max-height: 500px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Info Grid -->
+      <div class="row g-4 mb-5 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-10">
+          <div class="row g-3" id="projectInfoGrid">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Description -->
+      <div class="row justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-10">
+          <h3 class="fw-bold text-dark mb-4"><i class="bi bi-file-text text-gold me-2"></i>Project Overview</h3>
+          <p class="text-dark fs-5 lh-lg text-justify" id="projectDescription"></p>
+        </div>
+      </div>
+
+      <!-- Challenges Section -->
+      <div class="row justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-lg-10">
+          <h3 class="fw-bold text-dark mb-4"><i class="bi bi-exclamation-triangle text-gold me-2"></i>Challenges</h3>
+          <div class="row g-4" id="challengesContainer">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Solutions Section -->
+      <div class="row justify-content-center mb-5" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-lg-10">
+          <h3 class="fw-bold text-dark mb-4"><i class="bi bi-check-circle text-gold me-2"></i>Solutions</h3>
+          <div class="row g-4" id="solutionsContainer">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="500">
+        <div class="col-lg-10">
+          <div class="bg-dark-gradient p-5 rounded-4 shadow-lg text-center">
+            <i class="bi bi-building text-gold display-4 mb-3 d-block"></i>
+            <h3 class="fw-bold text-white mb-3">Have a Similar Project in Mind?</h3>
+            <p class="text-white-80 fs-5 mb-4 col-lg-8 mx-auto">Let us bring your vision to life. Contact our team to discuss your project requirements and get a free consultation.</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+              <a href="contact.html" class="btn btn-gold btn-lg px-5 py-3 rounded-pill"><i class="bi bi-envelope me-2"></i>Contact Us</a>
+              <a href="tel:+971553396704" class="btn btn-outline-gold btn-lg px-5 py-3 rounded-pill"><i class="bi bi-telephone me-2"></i>Call Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-top-line"></div>
+    <div class="container py-5">
+      <div class="row g-4 g-lg-5 mb-5">
+        <div class="col-lg-3 col-md-6">
+          <img src="../assets/images/logo.jpg" alt="WBM Contracting" height="65" class="mb-4">
+          <p class="text-dark mb-4 text-justify">Building excellence since 1999. Your trusted partner in creating exceptional spaces.</p>
+          <div class="d-flex gap-2">
+            <a href="https://instagram.com" target="_blank" class="footer-social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" class="footer-social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.tiktok.com/@technical.boss1" target="_blank" class="footer-social-icon"><i class="bi bi-tiktok"></i></a>
+            <a href="https://youtube.com" target="_blank" class="footer-social-icon"><i class="bi bi-youtube"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="footer-social-icon"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="fw-bold text-dark mb-4">Company</h5>
+          <ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="about.html">Our Team</a></li><li><a href="about.html">Careers</a></li></ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="fw-bold text-dark mb-4">Services</h5>
+          <ul class="footer-links"><li><a href="service-detail.html?id=1">Interior Design</a></li><li><a href="service-detail.html?id=2">MEP Contracting</a></li></ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="fw-bold text-dark mb-4">Pages</h5>
+          <ul class="footer-links"><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="fw-bold text-dark mb-4">Contact Us</h5>
+          <ul class="footer-contact">
+            <li><a href="tel:+971553396704"><i class="bi bi-telephone"></i><span>+971 55 339 6704</span></a></li>
+            <li><a href="tel:+971566669304"><i class="bi bi-telephone"></i><span>+971 56 666 9304</span></a></li>
+            <li><a href="mailto:wbmcontracting@gmail.com"><i class="bi bi-envelope"></i><span>wbmcontracting@gmail.com</span></a></li>
+            <li><span class="d-flex align-items-start gap-2"><i class="bi bi-geo-alt mt-1"></i><span>P.O.Box: 93361<br>Dubai, U.A.E</span></span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 pt-4">
+        <p class="text-dark small mb-0">&copy; <span id="currentYear"></span> WBM Contracting L.L.C. All rights reserved. Powered by <a href="https://zetacoding.com/" target="_blank" class="text-gold fw-semibold">ZetaCoding</a></p>
+        <div class="d-flex gap-4 small">
+          <a href="#" class="text-dark footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="text-dark footer-bottom-link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Actions -->
+  <div class="floating-actions">
+    <a href="tel:+971553396704" class="floating-btn floating-call"><i class="bi bi-telephone-fill"></i></a>
+    <a href="https://wa.me/971566669304?text=Hello!%20I%20want%20to%20know%20more%20about%20your%20services." target="_blank" class="floating-btn floating-whatsapp"><i class="bi bi-whatsapp"></i></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+  <script>
+    // Project Data
+    const projects = {
+      1: {
+        title: 'Luxury Business Tower',
+        category: 'commercial',
+        image: '../assets/images/projects/luxury-bussines-tower.jpg',
+        location: 'Dubai Marina',
+        year: '2023',
+        tagline: '45-story luxury commercial complex',
+        scope: 'Full Construction',
+        duration: '24 months',
+        client: 'Dubai Properties Group',
+        description: 'The Luxury Business Tower is a landmark 45-story commercial complex located in the heart of Dubai Marina. This prestigious project involved complete construction from foundation to finishing, incorporating cutting-edge architectural design with premium materials and smart building technology. The tower features Grade A office spaces, retail podium levels, advanced HVAC systems, and state-of-the-art security infrastructure. Every floor was designed to maximize natural light and offer panoramic views of the marina, creating a world-class working environment for leading corporations.',
+        challenges: [
+          { title: 'Complex Foundation Engineering', description: 'The marina-adjacent location required specialized deep piling techniques to address the high water table and challenging soil conditions.' },
+          { title: 'Logistics in a Dense Urban Area', description: 'Coordinating heavy material deliveries and crane operations within the congested Dubai Marina area demanded meticulous planning.' },
+          { title: 'Tight Construction Timeline', description: 'Completing a 45-story tower within 24 months required simultaneous work on multiple floors and round-the-clock scheduling.' }
+        ],
+        solutions: [
+          { title: 'Advanced Piling Technology', description: 'We deployed continuous flight auger piling combined with dewatering systems to ensure a stable and dry foundation.' },
+          { title: 'Just-in-Time Delivery System', description: 'A dedicated logistics team coordinated off-peak deliveries and utilized tower cranes with optimized swing paths to minimize disruption.' },
+          { title: 'Parallel Construction Methodology', description: 'By implementing a jump-form system and running MEP rough-ins concurrently with structural work, we met the aggressive deadline.' }
+        ]
+      },
+      2: {
+        title: 'Oceanview Residence',
+        category: 'residential',
+        image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80',
+        location: 'Palm Jumeirah',
+        year: '2023',
+        tagline: 'Premium waterfront villa',
+        scope: 'Design & Build',
+        duration: '18 months',
+        client: 'Private Owner',
+        description: 'The Oceanview Residence is an exclusive waterfront villa on Palm Jumeirah, blending contemporary architecture with the serene beauty of its coastal surroundings. This design-and-build project encompassed everything from conceptual design through to handover, featuring open-plan living spaces, floor-to-ceiling glass walls, an infinity pool overlooking the Arabian Gulf, private beach access, and bespoke interior finishes sourced from Italy and Spain. Smart home automation integrates lighting, climate, security, and entertainment into a seamless living experience.',
+        challenges: [
+          { title: 'Waterfront Construction Conditions', description: 'Building on the Palm Jumeirah required addressing tidal influences, salt corrosion risks, and strict coastal construction regulations.' },
+          { title: 'Custom Architectural Features', description: 'The cantilevered infinity pool and floor-to-ceiling glass facades demanded precision engineering and specialized structural calculations.' },
+          { title: 'Premium Material Sourcing', description: 'Importing bespoke finishes from multiple international suppliers while maintaining quality and schedule consistency was a key challenge.' }
+        ],
+        solutions: [
+          { title: 'Marine-Grade Construction', description: 'All exposed structural elements used marine-grade concrete and stainless steel reinforcement to withstand the coastal environment.' },
+          { title: 'Specialist Structural Engineering', description: 'We engaged world-class structural consultants and used 3D BIM modeling to ensure the cantilevered pool and glass facades met all safety and aesthetic requirements.' },
+          { title: 'Dedicated Procurement Team', description: 'A specialized procurement team managed international logistics, sample approvals, and quality inspections at origin to ensure timely delivery of premium materials.' }
+        ]
+      },
+      3: {
+        title: 'Tech Manufacturing Hub',
+        category: 'industrial',
+        image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80',
+        location: 'Dubai Industrial City',
+        year: '2022',
+        tagline: 'State-of-the-art manufacturing facility',
+        scope: 'Industrial Construction',
+        duration: '20 months',
+        client: '',
+        description: 'The Tech Manufacturing Hub is a state-of-the-art industrial facility in Dubai Industrial City, designed to house advanced electronics and technology manufacturing operations. The 50,000 sqm facility includes cleanroom environments, automated production lines, dedicated warehousing zones, administrative offices, and employee welfare areas. The building features heavy-duty structural steel framing, specialized ventilation and filtration systems, ESD flooring, and an integrated fire suppression system tailored to industrial hazards.',
+        challenges: [
+          { title: 'Cleanroom Standards Compliance', description: 'Achieving ISO Class 5 cleanroom certification required extremely precise HVAC design and contamination control throughout construction.' },
+          { title: 'Heavy Industrial Loads', description: 'The facility needed to support heavy CNC machinery and automated production equipment, demanding reinforced floor slabs and vibration isolation.' },
+          { title: 'Regulatory Approvals', description: 'Navigating the complex industrial zone regulations and environmental compliance requirements posed significant administrative challenges.' }
+        ],
+        solutions: [
+          { title: 'Specialized HVAC Design', description: 'We partnered with cleanroom specialists to design HEPA-filtered air handling units with positive pressure cascading, meeting ISO Class 5 standards.' },
+          { title: 'Reinforced Structural Design', description: 'Thickened concrete slabs with vibration dampening pads were installed to accommodate heavy machinery loads without affecting precision equipment.' },
+          { title: 'Proactive Regulatory Engagement', description: 'Our compliance team engaged with authorities early in the design phase, securing all permits and approvals ahead of the construction schedule.' }
+        ]
+      },
+      4: {
+        title: 'Shopping Plaza',
+        category: 'commercial',
+        image: '../assets/images/projects/shopping-plaza.jpg',
+        location: 'Downtown Dubai',
+        year: '2023',
+        tagline: 'Modern retail complex',
+        scope: 'Commercial Fit-Out',
+        duration: '15 months',
+        client: '',
+        description: 'The Shopping Plaza is a vibrant multi-level retail destination in Downtown Dubai, offering a curated mix of luxury boutiques, dining outlets, and lifestyle brands. The commercial fit-out project transformed a shell-and-core structure into a fully operational retail complex with stunning interior finishes, dynamic LED lighting displays, premium flooring, custom storefronts, and a central atrium with a cascading water feature. The design prioritizes customer flow, brand visibility, and an immersive shopping experience.',
+        challenges: [
+          { title: 'Working Within an Occupied Area', description: 'The plaza is situated in a high-traffic downtown zone, requiring construction to proceed without disrupting nearby businesses and pedestrian flow.' },
+          { title: 'Multi-Tenant Coordination', description: 'Coordinating fit-out works for over 40 individual retail units simultaneously, each with unique brand requirements and design specifications.' },
+          { title: 'Accelerated Delivery Schedule', description: 'The client required completion ahead of a major retail season, compressing the 15-month timeline significantly.' }
+        ],
+        solutions: [
+          { title: 'Phased Construction Approach', description: 'We divided the project into zones and phased the work to allow partial occupancy while construction continued in adjacent areas.' },
+          { title: 'Centralized Design Management', description: 'A dedicated design coordination team managed all tenant fit-out drawings, ensuring consistency with the overall plaza aesthetic while respecting individual brand identities.' },
+          { title: 'Extended Working Hours', description: 'With authority approvals, we implemented double-shift operations and weekend work to compress the schedule without compromising quality.' }
+        ]
+      },
+      5: {
+        title: 'Villa Community',
+        category: 'residential',
+        image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+        location: 'Arabian Ranches',
+        year: '2022',
+        tagline: 'Exclusive gated community',
+        scope: 'Residential Construction',
+        duration: '30 months',
+        client: '',
+        description: 'The Villa Community project is an exclusive gated residential development in Arabian Ranches, comprising 120 luxury villas across multiple typologies. The development features landscaped parks, community pools, a clubhouse, jogging tracks, and children\'s play areas. Each villa was constructed with premium materials, energy-efficient insulation, private gardens, and modern Arabic-inspired architectural detailing. The community infrastructure includes underground utilities, smart street lighting, and a dedicated security gatehouse.',
+        challenges: [
+          { title: 'Large-Scale Site Management', description: 'Managing construction across 120 villa plots simultaneously required robust site logistics, workforce coordination, and material management.' },
+          { title: 'Consistent Quality Across Units', description: 'Ensuring uniform construction quality and finish standards across all 120 villas, built by multiple subcontractor teams, was a major quality control challenge.' },
+          { title: 'Infrastructure Integration', description: 'Coordinating underground utilities, road networks, and landscaping alongside villa construction demanded careful sequencing.' }
+        ],
+        solutions: [
+          { title: 'Cluster-Based Construction', description: 'We divided the community into clusters of 20 villas each, with dedicated project managers and QA inspectors assigned to every cluster.' },
+          { title: 'Standardized Quality Checklists', description: 'Comprehensive stage-wise quality checklists and mock-up approvals ensured every villa met the same exacting finish standards.' },
+          { title: 'Integrated Master Schedule', description: 'A detailed master program linked villa construction milestones with infrastructure works, ensuring roads, utilities, and landscaping progressed in sync.' }
+        ]
+      },
+      6: {
+        title: 'Logistics Center',
+        category: 'industrial',
+        image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80',
+        location: 'Jebel Ali',
+        year: '2023',
+        tagline: 'Advanced logistics center',
+        scope: 'Industrial Build',
+        duration: '16 months',
+        client: '',
+        description: 'The Logistics Center in Jebel Ali is a modern 35,000 sqm distribution and warehousing facility designed for high-throughput operations. The facility features temperature-controlled storage zones, automated sorting systems, loading docks for 30 trucks simultaneously, office and admin blocks, and a dedicated vehicle maintenance bay. The pre-engineered steel structure was designed for rapid construction while maintaining the flexibility to accommodate future expansion modules.',
+        challenges: [
+          { title: 'Extreme Heat During Construction', description: 'Summer temperatures exceeding 50 degrees Celsius in Jebel Ali posed health risks to workers and affected material curing times.' },
+          { title: 'Cold Chain Requirements', description: 'Designing and constructing temperature-controlled zones ranging from -25 degrees to +8 degrees within a single facility required specialized insulation and MEP systems.' },
+          { title: 'Future Expansion Planning', description: 'The client required the structure to be easily expandable by 50% without disrupting ongoing operations in the future.' }
+        ],
+        solutions: [
+          { title: 'Heat Mitigation Protocols', description: 'We implemented midday work bans, misting stations, shaded rest areas, and adjusted concrete pouring to cooler hours to protect workers and ensure material quality.' },
+          { title: 'Modular Cold Storage Design', description: 'Insulated sandwich panels with dedicated refrigeration units were installed in modular bays, allowing independent temperature control for each zone.' },
+          { title: 'Expandable Structural Design', description: 'The steel structure was designed with bolted connections and removable end walls, enabling future bays to be added seamlessly without operational disruption.' }
+        ]
+      },
+      7: {
+        title: 'Corporate Headquarters',
+        category: 'commercial',
+        image: '../assets/images/projects/corporate-hardquarters.jpg',
+        location: 'Business Bay',
+        year: '2024',
+        tagline: 'Premium office space',
+        scope: 'Office Fit-Out',
+        duration: '12 months',
+        client: '',
+        description: 'The Corporate Headquarters project involved the complete fit-out of a premium 8-floor office space in Business Bay for a leading multinational corporation. The design reflects the client\'s brand identity through a sophisticated palette of materials including Italian marble, engineered timber, brushed brass accents, and acoustic glass partitions. The space includes a grand reception lobby, executive boardrooms, open-plan workstations, breakout lounges, a wellness room, a pantry with barista station, and a rooftop terrace for corporate events.',
+        challenges: [
+          { title: 'Brand-Driven Design Execution', description: 'Translating the client\'s global brand guidelines into a physical space while adapting to local building codes and material availability required creative problem-solving.' },
+          { title: 'Acoustic Performance Requirements', description: 'The open-plan design needed to balance collaboration with acoustic privacy, especially for executive floors and boardrooms.' },
+          { title: 'Operational Continuity', description: 'Partial floors were already occupied by the client during fit-out, requiring noise and dust control measures to avoid disrupting daily operations.' }
+        ],
+        solutions: [
+          { title: 'Collaborative Design Workshops', description: 'We conducted iterative design workshops with the client\'s global brand team and local architects to achieve a design that honored the brand while meeting local requirements.' },
+          { title: 'Advanced Acoustic Solutions', description: 'Sound-absorbing ceiling rafts, acoustic glass partitions rated at STC 45+, and white noise masking systems were installed to create optimal acoustic environments.' },
+          { title: 'Controlled Construction Zones', description: 'Temporary dust barriers, negative air pressure systems, and restricted working hours on occupied floors ensured zero disruption to the client\'s ongoing operations.' }
+        ]
+      },
+      8: {
+        title: 'Luxury Apartments',
+        category: 'residential',
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80',
+        location: 'Dubai Hills',
+        year: '2024',
+        tagline: 'High-end residential tower',
+        scope: 'Full Construction',
+        duration: '28 months',
+        client: '',
+        description: 'The Luxury Apartments project is a striking 35-story residential tower in Dubai Hills, offering 200 premium apartments ranging from one-bedroom units to four-bedroom penthouses. The tower features a double-height grand lobby with water features, a resort-style infinity pool on the podium deck, a fully equipped gymnasium, co-working lounge, children\'s play area, and landscaped gardens. Each apartment is finished with engineered hardwood flooring, quartz countertops, frameless glass balustrades, and smart home pre-wiring.',
+        challenges: [
+          { title: 'High-Rise Structural Complexity', description: 'The 35-story tower with a slender profile required advanced wind load analysis and structural optimization to meet seismic and wind resistance codes.' },
+          { title: 'Premium Finish Consistency', description: 'Maintaining consistent finish quality across 200 apartments with multiple unit types and configurations was a significant quality management challenge.' },
+          { title: 'Amenity Deck Construction', description: 'The podium-level amenity deck with infinity pool, landscaping, and waterproofing over occupied parking levels required meticulous waterproofing and structural coordination.' }
+        ],
+        solutions: [
+          { title: 'Wind Tunnel Testing', description: 'We commissioned wind tunnel tests on a scale model to validate the structural design and optimize the facade system for wind performance and occupant comfort.' },
+          { title: 'Model Apartment Program', description: 'Two fully finished model apartments were completed early as benchmarks, with detailed finish specifications and photo documentation used as quality references for all remaining units.' },
+          { title: 'Multi-Layer Waterproofing System', description: 'A redundant waterproofing system with liquid membrane, sheet membrane, and protection screed was installed on the podium deck, verified with 72-hour flood testing before any finishes were applied.' }
+        ]
+      }
+    };
+
+    // Get project ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = parseInt(urlParams.get('id'));
+    const project = projects[projectId];
+
+    if (project) {
+      // Update page title
+      document.title = project.title + ' - WBM Contracting LLC';
+
+      // Update hero
+      const categoryLabel = project.category.charAt(0).toUpperCase() + project.category.slice(1);
+      document.getElementById('projectCategory').textContent = categoryLabel.toUpperCase();
+      document.getElementById('projectTitle').textContent = project.title;
+      document.getElementById('projectTagline').textContent = project.tagline;
+      document.getElementById('breadcrumbTitle').textContent = project.title;
+
+      // Update image
+      const imgEl = document.getElementById('projectImage');
+      imgEl.src = project.image;
+      imgEl.alt = project.title;
+
+      // Build info grid
+      const infoItems = [
+        { icon: 'bi-geo-alt', label: 'Location', value: project.location },
+        { icon: 'bi-calendar3', label: 'Year', value: project.year },
+        { icon: 'bi-clipboard-check', label: 'Scope', value: project.scope },
+        { icon: 'bi-clock', label: 'Duration', value: project.duration }
+      ];
+      if (project.client) {
+        infoItems.push({ icon: 'bi-person', label: 'Client', value: project.client });
+      }
+
+      const infoGrid = document.getElementById('projectInfoGrid');
+      infoItems.forEach(function(item) {
+        const colClass = project.client ? 'col-6 col-md-4 col-lg' : 'col-6 col-md-3';
+        infoGrid.innerHTML += '<div class="' + colClass + '">' +
+          '<div class="bg-white p-4 rounded-4 shadow-sm text-center h-100 hover-lift">' +
+            '<i class="bi ' + item.icon + ' text-gold fs-3 mb-2 d-block"></i>' +
+            '<small class="text-muted text-uppercase fw-semibold d-block mb-1">' + item.label + '</small>' +
+            '<strong class="text-dark">' + item.value + '</strong>' +
+          '</div>' +
+        '</div>';
+      });
+
+      // Description
+      document.getElementById('projectDescription').textContent = project.description;
+
+      // Challenges
+      const challengesContainer = document.getElementById('challengesContainer');
+      project.challenges.forEach(function(challenge, index) {
+        challengesContainer.innerHTML += '<div class="col-md-6 col-lg-4">' +
+          '<div class="bg-white p-4 rounded-4 shadow-sm h-100" style="border-left: 4px solid #dc3545;">' +
+            '<h5 class="fw-bold text-dark mb-3"><span class="text-danger me-2">' + (index + 1) + '.</span>' + challenge.title + '</h5>' +
+            '<p class="text-dark mb-0">' + challenge.description + '</p>' +
+          '</div>' +
+        '</div>';
+      });
+
+      // Solutions
+      const solutionsContainer = document.getElementById('solutionsContainer');
+      project.solutions.forEach(function(solution, index) {
+        solutionsContainer.innerHTML += '<div class="col-md-6 col-lg-4">' +
+          '<div class="bg-white p-4 rounded-4 shadow-sm h-100" style="border-left: 4px solid #198754;">' +
+            '<h5 class="fw-bold text-dark mb-3"><span class="text-success me-2">' + (index + 1) + '.</span>' + solution.title + '</h5>' +
+            '<p class="text-dark mb-0">' + solution.description + '</p>' +
+          '</div>' +
+        '</div>';
+      });
+
+    } else {
+      // Invalid or missing project ID - show error
+      document.getElementById('projectTitle').textContent = 'Project Not Found';
+      document.getElementById('projectTagline').textContent = 'The requested project could not be found.';
+      document.querySelector('.py-5.bg-light-gradient .container.py-4').innerHTML =
+        '<div class="text-center py-5">' +
+          '<i class="bi bi-exclamation-circle text-gold display-1 mb-4 d-block"></i>' +
+          '<h3 class="fw-bold text-dark mb-3">Project Not Found</h3>' +
+          '<p class="text-dark fs-5 mb-4">The project you are looking for does not exist or the ID is invalid.</p>' +
+          '<a href="projects.html" class="btn btn-gold btn-lg px-5 py-3 rounded-pill"><i class="bi bi-arrow-left me-2"></i>Back to Projects</a>' +
+        '</div>';
+    }
+  </script>
+
+</body>
+</html>
